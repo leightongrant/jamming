@@ -1,5 +1,17 @@
+import MainHeader from './components/MainHeader';
+import Main from './components/Main';
+import Layout from 'antd/es/layout/layout';
+import { useState } from 'react';
+
 function App() {
-  return <h1>Jammming</h1>;
+  const [search, setSearch] = useState('');
+
+  return (
+    <Layout id='layout'>
+      <MainHeader search={search} setSearch={setSearch} />
+      <Main search={search} />
+    </Layout>
+  );
 }
 
 export default App;

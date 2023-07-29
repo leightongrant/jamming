@@ -1,26 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #mainHeader {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .searchBox {
-  width: 70%;
-  min-width: 320px;
+    width: 70%;
+    min-width: 320px;
 }
 
 #content {
-  width: 70%;
-  min-width: 320px;
-  background-color: red;
-  margin: auto;
-  padding: 20px;
+    width: 70%;
+    min-width: 320px;
+    background-color: red;
+    margin: auto;
+    padding: 20px;
 }
 
 #layout {
-  background-color: yellow;
+    background-color: yellow;
+}
+
+.tracks {
+    margin-bottom: 20px;
 }
